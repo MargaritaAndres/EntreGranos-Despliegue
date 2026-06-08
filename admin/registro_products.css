@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Fuente */
+    background-position: center;
+    
+}
+body {
+    background-color:white; /* Color de fondo */
+    text-align: center;
+    color: black; /* Color de texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1{
+    color: #333;
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+/* para el estilo de la imagen (logo) */
+img{
+    margin: 20px;/*espacio arriba de la imagen*/
+    max-width: 200px; /*esto es para ancho maximo para que no desborde*/
+    border-radius: 100%;/*bordes redondeados*/
+
+}
+section{
+    background-color:white; /* Color de fondo */
+    padding: 30px;/*Relleno interno*/
+    margin-top: 10px;/*espacio respecto al contenido de arriba*/
+    border: 15px;/*bordes redondeados*/
+    box-shadow: 0 4px 12px rgba(0, 0, 0 ,0.1); /*sombra sauves*/
+    width: 300px;/*ancho fijo del formulario*/
+    
+}
+/* Cada grupo de campo del formulario */
+.form-element{
+    margin-bottom: 15px; /*espacios entre elementos*/
+    display: flex;/*para organizar*/
+    flex-direction: column; /*en columna label arriba, imput abajo*/
+}
+/* Estilo de las etiquetas de los campos */
+label{
+    font-weight: bold;/*para texto en negrita*/
+    margin-bottom: 5px;/*espacio debajo del label*/
+    color: #444;
+}
+/* Estilo de los campos de entrada y textarea */
+input, textarea{
+    padding: 8px;/*esto es para el espacio interno (cuadros) para que se vea comodo para escribir*/
+    border: 1px solid #dad3d3;/*border gris calro para los cuadros*/
+    border-radius: 6px;/*bordes redondeados*/
+    font-size: 14px; /*tamaño de texto*/
+}
+/* Estilo del botón */
+button{
+    background-color:rgb(14, 14, 58);/*color azul para el boton*/
+    color: white;/*con letra blanca*/
+    border: none;/*sin border externo*/
+    padding: 10px;/*tamaño del cuadro (button)*/
+    border-radius: 6px;/*bordes redondeados*/
+    cursor: pointer;/*cambia cursor al pasar en mause*/
+    transition: background-color 0.25;/*animacion suave al cambiar de color*/
+}
+ /* Estilo cuando el mouse pasa sobre el botón */
+button:hover{
+    background-color: rgb(129, 85, 33);
+}
+.salir {
+    text-align: center;
+    margin-top: 40px;/* separa el botón del contenido anterior */
+
+}
+.salir a {
+    background: #a33232;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.salir a:hover {
+    background: #7e2626;
+}
+
+
