@@ -1,0 +1,125 @@
+/* ======= Ajuste para centrar la página ======= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white; /* Fondo blanco */
+}
+/* ======= Estilos del logo ======= */
+.logo {
+    display: flex; /* centrar */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 350px; /* Ajusta el tamaño del logo */
+}
+/* ======= Estilos del título de registro ======= */
+/* ======= Barra de navegación ======= */
+.arriba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Estilo de los enlaces de navegación */
+.arriba a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 15px;
+}
+.arriba a:hover {
+    text-decoration: underline;
+}
+/* Resalta la página activa */
+.buton_inicio {
+    background-color: black;
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.registro h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; /* Centra el contenido */
+}
+.registro p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido */
+}
+/* ======= Formulario de registro ======= */
+.registro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* ======= Distribución de los campos (Apellido, Nombre) ======= */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center; /* Centra el contenido */
+}
+.form-group div {
+    width: 30%; /* Cada campo ocupa un tercio del ancho, apellidos, numbre */
+}
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+/* ======= Estilos generales de los inputs ======= */
+.registro-form input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Centra el contenido */
+}
+/* ======= Botón de Registro ======= */
+.registro-form button {
+    width: 100%;
+    max-width: 250px;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.registro-form button:hover {
+    background-color: #333;
+}
+/* ======= Sección de redes sociales ======= */
+.social_icons {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.social_icons img {
+    width: 30px;
+    margin: 0 10px;
+}
